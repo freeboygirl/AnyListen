@@ -16,3 +16,6 @@
 http://www.cnblogs.com/learn-dotnet/p/5519871.html
 
 http://www.cnblogs.com/linezero/p/5475246.html
+
+#后记
+编程纯属自学，代码写得不大规范，请大牛多多指导
