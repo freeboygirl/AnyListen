@@ -738,11 +738,11 @@ namespace AnyListen.Api.Music
             var max = 0;
             foreach (JToken jToken in json["mvs"])
             {
-                if (Convert.ToInt32(jToken["br"]) > max)
+                if (jToken["br"].Value<int>() > max)
                 {
-                    max = Convert.ToInt32(jToken["br"]);
+                    max = jToken["br"].Value<int>();
                 }
-                dic.Add(Convert.ToInt32(jToken["br"]), jToken["mvurl"].ToString());
+                dic.Add(jToken["br"].Value<int>(), jToken["mvurl"].ToString());
             }
             if (quality != "ld")
             {
