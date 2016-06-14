@@ -1,12 +1,10 @@
 # AnyListen
 基于.Net Core WebApi构建的跨平台音乐解析后台接口
 
-更新日志：
-
+# 更新日志：
 2016-06-14  发布第一版，支持网易云
 
-其他说明：
-
+# 其他说明：
 开发环境：Win10 X64 Education + VS2015
 
 测试环境：Win10 X64 Education；CentOS 7
